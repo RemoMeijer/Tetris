@@ -74,7 +74,7 @@ public class Draw {
 
             Image image = null;
             try {
-                File path = new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\ghostPiece.png");
+                File path = new File("resources\\ghostPiece.png");
                 image = ImageIO.read(path);
             } catch (IOException e) {
                 e.printStackTrace();
@@ -299,7 +299,7 @@ public class Draw {
     public void drawBackGround(FXGraphics2D graphics){
         Image image = null;
         try {
-            File path = new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\Background.jpg");
+            File path = new File("resources\\Background.jpg");
             image = ImageIO.read(path);
         } catch (IOException e) {
             e.printStackTrace();
@@ -312,7 +312,7 @@ public class Draw {
     public void drawLittleBackGround(FXGraphics2D graphics) {
         Image image = null;
         try {
-            File path = new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\LittleBackGround.jpg");
+            File path = new File("resources\\LittleBackGround.jpg");
             image = ImageIO.read(path);
         } catch (IOException e) {
             e.printStackTrace();
@@ -325,7 +325,7 @@ public class Draw {
     public void drawScoreBox(FXGraphics2D graphics){
         Image image = null;
         try {
-            File path = new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\ScoreBG.png");
+            File path = new File("resources\\ScoreBG.png");
             image = ImageIO.read(path);
         } catch (IOException e) {
             e.printStackTrace();
@@ -338,7 +338,7 @@ public class Draw {
     public void drawComboBox(FXGraphics2D graphics){
         Image image = null;
         try {
-            File path = new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\ComboBG.png");
+            File path = new File("resources\\ComboBG.png");
             image = ImageIO.read(path);
         } catch (IOException e) {
             e.printStackTrace();

@@ -46,11 +46,11 @@ public class GUI extends Application {
         this.drawTetrominos = true;
         this.draw.drawBackGround(g2d);
 
-        Media BGM = new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\tetrisBGM.wav").toURI().toString());
-        Media move = new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\move.wav").toURI().toString());
-        Media rotate = new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\rotate.wav").toURI().toString());
-        Media hardDrop = new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\hardDrop.wav").toURI().toString());
-        Media hold = new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\hold.wav").toURI().toString());
+        Media BGM = new Media(new File("resources\\tetrisBGM.wav").toURI().toString());
+        Media move = new Media(new File("resources\\move.wav").toURI().toString());
+        Media rotate = new Media(new File("resources\\rotate.wav").toURI().toString());
+        Media hardDrop = new Media(new File("resources\\hardDrop.wav").toURI().toString());
+        Media hold = new Media(new File("resources\\hold.wav").toURI().toString());
 
         this.BGMMP = new MediaPlayer(BGM);
         this.moveMP = new MediaPlayer(move);

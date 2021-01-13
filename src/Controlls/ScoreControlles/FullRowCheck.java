@@ -23,7 +23,7 @@ public class FullRowCheck {
         this.linesCleared = linesCleared;
         this.combo = combo;
         this.tetris = tetris;
-        single = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\single.wav").toURI().toString()));
+        this.single = new MediaPlayer(new Media(new File("resources\\single.wav").toURI().toString()));
 
     }
 
@@ -182,24 +182,24 @@ public class FullRowCheck {
 
     //Does not work properly
     public void playTetrisClear(){
-        MediaPlayer tetrisSound = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\tetrisrows.wav").toURI().toString()));
+        MediaPlayer tetrisSound = new MediaPlayer(new Media(new File("resources\\tetrisrows.wav").toURI().toString()));
         tetrisSound.play();
         tetrisSound.seek(tetrisSound.getStartTime());
     }
 
     //Does not work properly
     public void playComboSound(){
-        MediaPlayer combo2 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo2.wav").toURI().toString()));
-        MediaPlayer combo3 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo3.wav").toURI().toString()));
-        MediaPlayer combo4 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo4.wav").toURI().toString()));
-        MediaPlayer combo5 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo5.wav").toURI().toString()));
-        MediaPlayer combo6 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo6.wav").toURI().toString()));
-        MediaPlayer combo7 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo7.wav").toURI().toString()));
-        MediaPlayer combo8 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo8.wav").toURI().toString()));
-        MediaPlayer combo9 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo9.wav").toURI().toString()));
-        MediaPlayer combo10 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo10.wav").toURI().toString()));
-        MediaPlayer combo11 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo11.wav").toURI().toString()));
-        MediaPlayer combo12 = new MediaPlayer(new Media(new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\combo12.wav").toURI().toString()));
+        MediaPlayer combo2 = new MediaPlayer(new Media(new File("resources\\combo2.wav").toURI().toString()));
+        MediaPlayer combo3 = new MediaPlayer(new Media(new File("resources\\combo3.wav").toURI().toString()));
+        MediaPlayer combo4 = new MediaPlayer(new Media(new File("resources\\combo4.wav").toURI().toString()));
+        MediaPlayer combo5 = new MediaPlayer(new Media(new File("resources\\combo5.wav").toURI().toString()));
+        MediaPlayer combo6 = new MediaPlayer(new Media(new File("resources\\combo6.wav").toURI().toString()));
+        MediaPlayer combo7 = new MediaPlayer(new Media(new File("resources\\combo7.wav").toURI().toString()));
+        MediaPlayer combo8 = new MediaPlayer(new Media(new File("resources\\combo8.wav").toURI().toString()));
+        MediaPlayer combo9 = new MediaPlayer(new Media(new File("resources\\combo9.wav").toURI().toString()));
+        MediaPlayer combo10 = new MediaPlayer(new Media(new File("resources\\combo10.wav").toURI().toString()));
+        MediaPlayer combo11 = new MediaPlayer(new Media(new File("resources\\combo11.wav").toURI().toString()));
+        MediaPlayer combo12 = new MediaPlayer(new Media(new File("resources\\combo12.wav").toURI().toString()));
 
         switch (this.combo) {
             case (0) : break;

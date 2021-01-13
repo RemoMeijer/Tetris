@@ -22,7 +22,7 @@ public class TTetromino implements Tetromino {
     public TTetromino() {
         this.color = new java.awt.Color(158, 61, 156);
         try{
-            File path = new File("C:\\Users\\Remco\\Documents\\IdeaProjects\\TMCProjects\\2017_avans_ti_breda-2D_Graphics-2019\\Tetris\\Recources\\tPiece.png");
+            File path = new File("resources\\tPiece.png");
             this.image = ImageIO.read(path);
         } catch (IOException e) {
             e.printStackTrace();
